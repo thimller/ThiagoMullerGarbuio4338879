@@ -1,0 +1,66 @@
+body{
+    font-family: "Inter", sans-serif;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#cabecalho{
+    position: sticky;
+    top:0;
+    background-color: black;
+    color: white;
+}
+
+/*Edições por parte*/
+#aoLado{
+    display: flex;   
+}
+#fotoMinha{
+    margin-left:40px;
+    margin-right:150px;
+    max-width:450px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+#sobreMim{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+#cursos{
+    margin-bottom: 200px;
+}
+#sites{
+    margin-bottom: 200px;
+}
+#deixeContato{
+    margin-bottom: 200px;
+}
+
+input{
+    display: block;
+}
+
+/*Edição em massa*/
+#quemEuSou,#formação,#trabalhos,#contato{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+a,p,ul,ol,input,button,h6,#meuContato,label{
+    margin-left: 50px;
+}
+a,p,ul,ol,input,button{
+    font-size: 26px;
+}
+
